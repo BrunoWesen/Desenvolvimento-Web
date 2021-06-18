@@ -1,0 +1,123 @@
+1.
+HTTP funciona sobre TCP/IP
+a. Verdadeiro
+
+HTTP é um protocolo sem estado que suporta
+c. Ambas
+
+URN é um tipo de Identificador Uniforme de Recursos (URI) que identifica um recurso por sua localização.
+b. Falso
+
+URL é um tipo Identificador Uniforme de Recursos (URI) que identifica um recurso por seu nome:
+b. Falso
+
+O método POST é tipicamente usado para uma solicitação de formulário HTTP.
+b. Falso
+
+Quais dois métodos são mais frequentemente usados em uma solicitação HTTP?
+a. GET e POST
+
+Uma arquitetura web em dois níveis consiste em
+b. Cliente web e servidor web
+
+Uma arquitetura web em três níveis consiste em
+b. Interfaces, serviços e utilitários
+
+Em um aplicativo web em três níveis, o servidor de negócios e o servidor de banco de dados devem ser
+dois servidores separados.
+b. Falso
+
+HTTP é o único protocolo usado em qualquer aplicativo web
+b. Falso
+
+http, ftp, News, mailto e telnet são esquemas de protocolos que podem ser usados em um URL.
+a. Verdadeiro
+
+Um cliente gordo manipula processos de negócios e um cliente magro manipula apenas a interface de
+solicitação.
+a. Verdadeiro
+
+Qual a forma correta de fazer referência a um arquivo externo de folhas de estilo em uma página HTML?
+c) <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+Em um documento HTML qual o lugar correto para se fazer referência a um arquivo ex-terno de folhas de
+estilo?
+b) Na seção <head>
+
+Com uma folha de estilo externa você poderá mudar a aparência de um site inteiro alte-rando apenas um
+arquivo.
+a) Verdadeiro
+
+Qual a extensão de um arquivo externo de folhas de estilo?
+b) .css
+
+Que tag HTML é utilizada para definir uma folha de estilo externa?
+a) <style>
+
+Que atributo HTML devemos utilizar para definir folhas de estilo Inline?
+c) style
+
+Qual a sintaxe correta das CSS?
+c) body {color: black;}
+
+Que propriedade CSS é utilizada para alterar a cor do texto de um elemento?
+b) color
+
+Que propriedade CSS controla o tamanho do texto?
+a) font-size
+
+Qual seria a sintaxe CSS correta se quiséssemos que todos os parágrafos ficassem em negrito?
+c) p {font-weight:bold;}
+
+2.
+Objetivo principal de melhorar a experiência da World Wide Web para os desenvolvedores e os usuários finais.
+
+3.
+É usado para desenhar gráficos.
+
+5.
+Algumas características implementada no HTML5:
+SVG, canvas e outros gráficos vetoriais virtuais são suportados em HTML5.
+O HTML5 usa bancos de dados SQL da Web, cache de aplicativos para armazenamento temporário de dados, enquanto isso.
+Oferece suporte completo para o JavaScript ser executado em segundo plano (Cortesia para a API JS web worker de HTML5).
+
+6.
+A formatação lógica segue o significado lógico do texto marcado: um endereço de e-mail, uma citação etc. Sua apresentação final varia conforme o browser, podendo oferecer resultados mais ricos.
+A formatação física especifica explicitamente o estilo que se quer para o texto: itálico, grifado etc. Sua apresentação final não sofre grandes variações.
+
+9.
+Exprime a apresentação de documentos estruturados, um padrão para especificar a apresentação visual e também auditiva.
+
+10.
+.class
+#id
+p
+div
+ul
+a
+link
+h1,h2,h3,h4,h5,h6
+
+11.
+Descendente, ancestral, filho, pai, sibling (irmãos)
+
+12.
+Podem ser ultilizadas para dizermos o que é um parágrafo, o que é um título, um vínculo com outro documento, um trecho de código que mereça ênfase, uma lista não-ordenada que servirá como menu de navegação, etc.
+
+46.Assinale a alternativa que representa como definir um CSS interno.
+b) <style>
+
+47. Assinale a alternativa que mostra uma sintaxe correta do CSS.
+b) body {color:black}
+
+48. Assinale a alternativa que mostra como inserir comentários no arquivo CSS.
+a) /* comentario*/
+
+49. Qual a propriedade que utilizamos para alterar a cor do background?
+a) background-color
+
+50. Como alteramos a cor de texto de um elemento?
+a) text-color
+
+51. Qual a sintaxe para tornar todos os elementos <p> em negrito?
+c) <p style=”font-size:bold”>

@@ -1,0 +1,37 @@
+header{
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+}
+.grad{
+    font-family: Arial;
+    color: blue;
+}
+.pos{
+    font-family: Arial;
+    color: green;
+}
+.mest{
+    color: yellow;
+    font-family: Arial;
+    font-style: italic;
+}
+.dout{
+    font-family: Arial;
+    color: red;
+    text-decoration: underline;
+}
+#text{
+    font-family: Arial;
+    color: violet;
+}
+.left{
+    margin-left: 90px;
+}
+.right{
+    margin-left: 150px;
+}

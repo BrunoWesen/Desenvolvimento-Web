@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+ <!-- cabeçalho -->
+ <head>
+  <meta charset='UTF-8'/>
+  <link rel='stylesheet' type='text/css' href='estilo.css'>
+  <title>Exercício 28</title>
+ </head>
+<body>
+	<fieldset class="pessoais" style='width:50%'> 
+	   <legend>Dados Pessoais:</legend>
+	   <form>
+			<div>
+				<label for='codigo'>Código: </label>
+				<input style='width: 15%; background-color: #d8d5d5; border: 1px; margin-top:9px;'  type='number' name='codigo' required>
+			</div>
+		   <div>
+				<label for='nome'>Nome: </label>
+				<input style='width: 40%; border-color:#dedcdc; margin-top:9px;'  type='text' name='nome' required>
+		   </div>
+		   <div>
+				<label for='password'>Senha: </label>
+				<input style='width: 13%; border-color:#dedcdc; margin-top:9px;'  type='password' name='senha' required>
+		   </div>
+		   <div>
+				<label for='sexo'>Sexo: </label>
+				<input style='margin-top:9px;'  type='radio' name='sexo' value='Feminino' required>Feminino
+				<input style='margin-top:9px;'  type='radio' name='sexo' value='Masculino' required>Masculino
+		   </div>
+		   <div>
+				<label for='idade'>Idade: </label>
+				<input style='width: 11%; border-color:#dedcdc; margin-top:9px;'  type='number' name='idade' required>
+		   </div>
+		   <label style='margin-top:9px;' for="cartoes">Cartões de Crédito</label>
+		<div>
+		  <select name="cartoes" multiple="multiple" style='margin-top:6px;'>
+
+		  <option value="mast">Mastercard</option>
+		  <option value="visa">Visa</option>
+		  <option value="amer">American Express</option>
+		</select>
+		</div>
+	   </form>
+	</fieldset>
+	<fieldset class="pessoais" style='width:50%; margin-top:9px;'> 
+	   <legend>Dados Profissionais:</legend>
+	   <form>
+			<label style='margin-top:9px;' for="cargo">Cargo:</label>
+			<div>
+				<select name="cargo" style='margin-top:6px;'>
+				  <option value="junior">Analista Júnior</option>
+				  <option value="pleno">Analista Pleno</option>
+				  <option value="senior">Analista Sênior</option>
+				</select>
+			</div>
+	
+		   <div style='margin-top:9px'>
+				<span for='dadospessoais'>Dados Pessoais: </span><br>
+				<input type="checkbox" name="fumante" value="bicicleta">Fumante<br>
+				<input type="checkbox" name="exercicios" value="carro">Pratica exercícios físicos<br>
+				<input style='margin-bottom:9px'type="checkbox" name="bebida" value="moto">Consome bebida alcoólica
+		   </div>
+		   <div>
+				<label for='idade'>Experiência Profissional: </label><br>
+				<textarea style='margin-top:6px; width:35%; resize: vertical;' placeholder='Data início/Data fim/Empresa/Cargo'></textarea>
+		   </div>
+		   <button class="botao-reset" type="reset" name="reset">Limpar</button>
+		   <button class="botao-submit" type="submit" name="submit">Inserir</button>
+	   </form>
+	</fieldset>
+	
+</body>
+</html>

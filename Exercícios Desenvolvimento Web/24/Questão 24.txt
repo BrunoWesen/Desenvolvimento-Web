@@ -1,0 +1,19 @@
+1. O que significa a sigla css?
+a. Página em Estilo de Cascatas
+b. Cascading Style Sheets
+
+2. Qual o comando para quebra de linha no HTML?
+a. <n></n>
+b. <br>
+
+3. Qual desses é a forma correta de configurar classes em css?
+a. .classe{}
+b. #classe{}
+
+4. Qual desses é a forma correta de configurar ids em css?
+a. .id{}
+b. #id{}
+
+5. Qual o tipo de linguagem html?
+a. Marcação
+b. Programação
