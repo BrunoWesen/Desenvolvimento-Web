@@ -1,0 +1,50 @@
+body, html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    margin-left: 30px;
+    height: auto;
+}
+.container{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    grid-gap: 0px;
+
+}
+.esquerda{
+    background:coral;
+    height: auto;
+    width: auto;
+    min-width: none;
+}
+.direita{
+    background: coral;
+    height: auto;
+    width: auto;
+    min-width: none;
+}
+.ultima{
+    background:coral;
+    height: auto;
+    width: auto;
+    min-width: none;
+}
+table{
+    margin-left: 30px;
+    height: auto;
+    max-width: 200px;
+   background-color: rgb(64, 241, 64); 
+}
+#icon{
+    margin-left: 30px;
+    height: 65px;
+    width: 65px;
+}
+#icon:hover{
+    height: 84.5;
+    width: 84.5;
+}
+tr:hover{
+    font-weight: bold;
+}

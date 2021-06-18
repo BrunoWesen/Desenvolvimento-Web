@@ -1,0 +1,41 @@
+h2{
+   
+}
+#div1, #div2{
+    width: 1200px;
+    height: 500px;
+    background: blanchedalmond;
+}
+#gp1, #gp2, #gp3{
+    width: 1370px;
+    height: 230px;
+    background: blanchedalmond; 
+    display: flex;
+    padding: 10px;
+}
+table{
+    width: 250px;
+    height: 200px;
+    margin-left: 70px;
+    background: greenyellow;
+}
+tr, td{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+tr:hover{
+    font-weight: bold;
+}
+#icon{
+    margin-left: 30px;
+    height: 65px;
+    width: 65px;
+}
+#icon:hover{
+    height: 84.5;
+    width: 84.5;
+}
+
+
+

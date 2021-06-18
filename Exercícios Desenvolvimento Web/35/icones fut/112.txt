@@ -1,0 +1,24 @@
+<div id="time1">
+            <img src="icones fut/Palmeiras.png">
+        </div>
+        <div id="time2">
+            <img src="icones fut/universitario65.png">
+        </div> 
+        <div id="time3">
+            <img src="icones fut/DefensayJusticia65.png">  
+        </div>
+        <div id="time4">
+            <img src="icones fut/IndependienteDelValle65.png">  
+        </div>
+<div id="time1">
+            <img src="icones fut/olimpia-svg-13097.png">
+        </div>
+        <div id="time2">
+            <img src="icones fut/deportivo_tachira__.png">
+        </div> 
+        <div id="time3">
+            <img src="icones fut/internacional.png">  
+        </div>
+        <div id="time4">
+            <img src="icones fut/always-ready-23152.png">  
+        </div>

@@ -1,0 +1,21 @@
+/*div{
+	height: 360px;
+	width: 360px;
+	background-color: black
+}
+*/
+table{
+	height: 1080px;
+	/*width: 320px;
+	background-color: green;*/
+}
+.col2{
+	width: .7%;
+}
+.col1{
+	width: .13%;
+}
+.col3{
+	width: .17%;
+	height: 220px;
+}

@@ -1,0 +1,56 @@
+.container{
+    background-color: darkslategray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.coluna1{
+    height: 650px;
+    background-color: coral;
+
+}
+.coluna2{
+    height: 650px;
+    background-color: coral;
+}
+.coluna3{
+    height: 650px;
+    background-color: coral;
+}
+
+.coluna4{
+    height: 650px;
+    background-color: deeppink;
+}
+.coluna5{
+    height: 650px;
+    background-color: deeppink;
+}
+.coluna6{
+    height: 650px;
+    background-color: deeppink;
+}
+.coluna7{
+    height: 650px;
+    background-color: deeppink;
+}
+.coluna8{
+    height: 650px;
+    background-color: deeppink;
+}
+.coluna9{
+    height: 650px;
+    background-color: deeppink;
+}
+.coluna10{
+    height: 650px;
+    background-color: coral;
+}
+.coluna11{
+    height: 650px;
+    background-color: coral;
+}
+.coluna12{
+    height: 650px;
+    background-color: coral;
+}
