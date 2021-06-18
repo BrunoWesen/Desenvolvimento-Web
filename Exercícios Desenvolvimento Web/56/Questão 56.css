@@ -1,0 +1,17 @@
+.container {
+/*width: 100vw;*/
+height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: center-left;
+align-items: center;
+}
+.box {
+width: 400px;
+height: 400px;
+margin-left: 0px;
+background: blue;
+}
+body {
+margin: 0px;
+}

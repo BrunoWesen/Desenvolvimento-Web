@@ -1,0 +1,104 @@
+.menu{
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 450px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 3px;
+    
+}
+.titulo{
+    border-width: 1px;
+    border-style: solid;
+    grid-column: span 2;
+    grid-row: 1;
+}
+.nome{
+    border-width: 1px;
+    border-style: solid;
+    grid-column: 1;
+    grid-row: 2;
+    height: 50px;
+    
+}
+.barra{
+    border-width: 1px;
+    border-style: solid;
+    padding-top:  15px;
+    grid-column: 2;
+    grid-row: 2;
+}
+.topping{
+    border-width: 1px;
+    border-style: solid;
+    grid-column: 1;
+    grid-row: 3;
+}
+.options{
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    grid-column: 2;
+    grid-row: 3;
+    padding-right: 125px;
+}
+.sauce{
+    border-width: 1px;
+    border-style: solid;
+
+    grid-column: 1;
+    grid-row: 4;
+}
+.sauceList{
+    border-width: 1px;
+    border-style: solid;
+    grid-column: 2;
+    grid-row: 4;
+    padding-top: 15px;
+}
+.optional{
+    border-width: 1px;
+    border-style: solid;
+
+    grid-column: 1;
+    grid-row: 5;
+}
+.extras{
+    padding-right: 100px;
+    border-width: 1px;
+    border-style: solid;
+
+    grid-column: 2;
+    grid-row: 5;
+}
+.delivery{
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 20px;
+    grid-column: span 2;
+    grid-row: 6;
+    text-align: left;
+}
+.delivery>h5{
+    margin-left: 10px;
+}
+.barradelivery{
+    width:300px
+}
+
+.delivery>input[type=text] {
+    margin-left: 10px;
+    height: 80px;
+    width: 420px;
+    }
+input{
+    vertical-align: middle
+}
+.botao{
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    grid-column: span 2;
+}

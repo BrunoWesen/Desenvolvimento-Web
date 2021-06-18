@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Exercicio 60</title>
+<link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+<body>
+	<form>
+		<h5>Jorge Ramon</h5>
+		<fieldset id='campo'>
+			<div id='jorge'>
+				<div>
+					<label for='firstnome'>First Name: </label>
+					<input type='text' name='firstnome'>
+				</div>
+				<div style='margin-top: 10px;'>
+					<label for='lastnome'>Last Name: </label>
+					<input type='text' name='lastnome'>
+				</div>
+				<div style='margin-top: 10px;'>
+					<label for='company'>Company: </label>
+					<input type='text' name='company'>
+				</div>
+				<div style='margin-top: 10px;'>
+					<label for='title'>Title: </label>
+					<input type='text' name='title'>
+				</div>
+			</div>
+			<div id='foto'>
+				<img src="jorge.jpg" alt="jorge"><br>
+				<button class="change-photo" type="submit" name="change-photo">Change Picture</button>
+			</div>
+		</fieldset>
+		<div id='phoneint'>
+			<fieldset id='phone'>
+				<legend>Phone Numbers</legend>
+				<div style='margin-top: 10px;'>
+					<label for='home'>Home: </label>
+					<input type='text' name='home'>
+				</div>
+				<div style='margin-top: 10px;'>
+					<label for='business'>Business: </label>
+					<input type='text' name='business'>
+				</div>
+				<div style='margin-top: 10px;'>
+					<label for='mobile'>Mobile: </label>
+					<input type='text' name='mobile'>
+				</div>
+				<div style='margin-top: 10px;'>
+					<label for='fax'>Fax: </label>
+					<input type='text' name='fax'>
+				</div>
+			</fieldset>
+			<fieldset id='inter'>
+				<legend>Internet</legend>
+				<div style='margin-top: 10px;'>
+					<label for='email'>Email: </label>
+					<input type='email' name='email'>
+				</div>
+				<div style='margin-top: 10px;'>
+					<label for='webpage'>Web page: </label>
+					<input type='text' name='webpage'>
+				</div>
+				<div style='margin-top: 10px;'>
+					<label for='im'>IM: </label>
+					<input type='text' name='im'>
+				</div>
+			</fieldset>
+		</div>
+		<br>
+		<fieldset id='add'>
+			<legend>Addresses</legend>
+			<div class='bus'style='margin-top: 10px;'>
+				<label for='Business'>Business</label>
+				<textarea id="casa" rows="5" cols="30" style='margin-top: 6px;'>123 Acme Rd #001 Miami, Fl 33133</textarea>
+				<input type='radio' name='mailing' value='yes'>Mailing Address
+			</div>
+			<div class='home' style='margin-top: 10px;'>
+				<label for='endereco'>Home</label>
+				<textarea id="casa"  style='margin-top: 6px;'></textarea>
+				<input type='radio' name='mailing' value='yes'>Mailing Address
+			</div>
+			<br><br>
+		</fieldset>
+		<div id='buttons'>
+			<div>
+			<button class="button-a" type="submit" name="save">Save</button>
+			</div>
+			<div>
+			<button class="button-b" type="submit" name="cancel">Cancel</button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

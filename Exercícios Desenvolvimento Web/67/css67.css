@@ -1,0 +1,110 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #edf0f5;
+}
+.container{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 85%;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #edf0f5;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5;
+
+}
+.header{
+    margin: 0 auto;
+    background-color: #395899;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logsenha{
+    margin-right: 290px;
+}
+.esquerda{
+    width: 400px;
+    grid-column: 1;
+    
+}
+.direita{
+    width: 400px;
+    grid-column: 2;
+}
+
+#logo{
+    margin-left: 250px;
+    width: 180px;
+    height: 70px;
+}
+
+.see{
+    margin-top: 30px;
+    display: flex;
+    grid-column: 1;
+    grid-row: 2;
+}
+.share{
+    margin-top: 30px;
+    display: flex;
+    grid-column: 1;
+    grid-row: 3;
+}
+.find{
+    margin-top: 30px;
+    display: flex;
+    grid-column: 1;
+    grid-row: 4;
+}
+#icon{
+    margin-top: 5px;
+    width: 43px;
+    height: 43px;
+}
+.fl{
+    padding: 5px;
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: space-between;
+}
+.rest{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 5px;
+}
+.email, .reemail, .password{
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+}
+#name{
+    width: 180px;
+    height: 30px;
+}
+#nasc{
+    width: 55px;
+    height: 30px;
+}
+.birth{
+    display: flex;
+}
+.sex>p{
+    font-size: 20px;
+}
+.sign{
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    width: 150px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+}
+.email, .reemail, .password{
+    width: 382px;
+}

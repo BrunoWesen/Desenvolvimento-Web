@@ -1,0 +1,42 @@
+
+
+#esqCima{
+	background-color: red;
+	width: 300px;
+	height: 200px;
+	border: 15px red;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+
+#esqBaixo{
+	background-color: green;
+	width: 300px;
+	height: 200px;
+	border: 15px green;
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+
+#dirCima{
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
+	border: 15px yellow;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#dirBaixo{
+	background-color: blue;
+	width: 300px;
+	height: 200px;
+	border: 15px blue;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

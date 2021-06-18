@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+p,img{
+    vertical-align: top;
+}
+
+.main{
+    width: 50%;
+    height: 100%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+}

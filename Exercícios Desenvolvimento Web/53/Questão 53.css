@@ -1,0 +1,25 @@
+div{
+
+}
+
+.conteiner{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.a{
+	background-color: blue;
+	height: 1080px;
+	width: 1.%;
+}
+
+.b{
+	background-color: yellow;
+	height: 1080px;
+	width: 1.%;
+}
+.c{
+	background-color: pink;
+	height: 1080px;
+	width: 1.%;
+}

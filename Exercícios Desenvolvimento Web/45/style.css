@@ -1,0 +1,17 @@
+a:link{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(75, 87, 87);
+}
+a:visited{
+    font-weight: bold;
+}
+
+a:hover{
+    color: #800080;
+    
+}
+
+a:active{
+    font-weight: bold;
+}

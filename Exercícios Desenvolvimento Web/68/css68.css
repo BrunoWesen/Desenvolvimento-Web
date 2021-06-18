@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.cabecalho{
+    padding: 0px;
+    display: flex;
+    background-color:rgb(216, 216, 216);
+    justify-content: space-between;
+    height: 40px;
+}
+.container{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+}
+.left, .mid, .right{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(156, 155, 155);
+    margin: 0 auto;
+    display: grid; 
+    width: 130px;
+    height: 200px;
+    justify-content: center;
+    grid-template-rows: 4;
+
+}
+.row1{
+    display: flex;
+    grid-row: 1;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    grid-row: 2;
+    align-items: center;
+}
+
+.row3{
+    display: flex;
+    grid-row: 3;
+    align-items: center;
+}
+
+.row4{
+    display: flex;
+    grid-row: 4;
+    align-items: center;
+}
+

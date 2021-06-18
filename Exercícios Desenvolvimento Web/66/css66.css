@@ -1,0 +1,16 @@
+.container{
+    margin-left: 500px;
+}
+.last, .first, .sex, .email{
+    align-items: center;
+    display: flex;
+}
+.sex{
+    margin-left: 51px;
+}
+.email{
+    margin-left: 28px;
+}
+.botoes{
+    margin-left: 100px;
+}

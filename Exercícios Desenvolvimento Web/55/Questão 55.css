@@ -1,0 +1,6 @@
+div{
+	/* para repetir na horizontal e na vertical:
+	background-image: url(img/fundo-site-azul-scaled.jpg);*/
+	height: 3840px;
+	width: 3840px;
+}
